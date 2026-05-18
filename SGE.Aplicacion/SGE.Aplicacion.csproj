@@ -6,8 +6,9 @@
 
   <ItemGroup>
     <Folder Include="Autorizacion\" />
-    <Folder Include="Expedientes\" />
+    <Folder Include="Expedientes\DTOs\" />
     <Folder Include="Tramites\" />
+    <Folder Include="Tramites\DTOs\" />
   </ItemGroup>
 
   <PropertyGroup>

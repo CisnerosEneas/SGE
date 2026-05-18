@@ -1,8 +1,7 @@
 using System;
-
 namespace SGE.Aplicacion.Autorizacion;
 
-public class IAutorizacionService
+public interface IAutorizacionService
 {
-
+    bool PoseeElPermiso(Guid idUsuario,Permiso permiso);
 }

@@ -1,8 +1,12 @@
 using System;
-
 namespace SGE.Aplicacion.Autorizacion;
 
-public class Permiso
+public enum Permiso
 {
-
+    ExpedienteAlta,
+    ExpedienteBaja,
+    ExpedienteModificacion,
+    TramiteAlta,
+    TramiteBaja,
+    TramiteModificacion
 }
