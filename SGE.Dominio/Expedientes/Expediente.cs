@@ -22,7 +22,7 @@ public class Expediente(Caratula c, Guid idUsuarioCreador)
 		Caratula = caratulaModificada ?? throw new DominioException("La carátula es obligatoria");
 		RegistrarModificacion(idUsuarioModificador);
 	}
-	
+
 	public bool ActualizarEstado(EtiquetaTramite? ultimaEtiqueta, Guid idUsuarioModificador)
 	{
 		EstadoExpediente estadoActualizado;
@@ -46,6 +46,15 @@ public class Expediente(Caratula c, Guid idUsuarioCreador)
 		if (estadoActualizado == Estado)
 			return false;
 		Estado = estadoActualizado;
+		RegistrarModificacion(idUsuarioModificador);
+		return true;
+	}
+
+	public bool CambiarEstado(EstadoExpediente nuevoEstado, Guid idUsuarioModificador)
+	{
+		if (nuevoEstado == Estado)
+			return false;
+		Estado = nuevoEstado;
 		RegistrarModificacion(idUsuarioModificador);
 		return true;
 	}
