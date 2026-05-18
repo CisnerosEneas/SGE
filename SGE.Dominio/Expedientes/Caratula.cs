@@ -1,7 +1,7 @@
 using System;
 namespace SGE.Dominio.Expedientes;
 
-public record class Caratula
+public record Caratula
 {
     public string Texto {get; }
     public Caratula(string texto)
