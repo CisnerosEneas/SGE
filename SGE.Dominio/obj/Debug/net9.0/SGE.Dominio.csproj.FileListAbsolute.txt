@@ -1,0 +1,11 @@
+C:\Users\user\SGE\SGE.Dominio\bin\Debug\net9.0\SGE.Dominio.deps.json
+C:\Users\user\SGE\SGE.Dominio\bin\Debug\net9.0\SGE.Dominio.dll
+C:\Users\user\SGE\SGE.Dominio\bin\Debug\net9.0\SGE.Dominio.pdb
+C:\Users\user\SGE\SGE.Dominio\obj\Debug\net9.0\SGE.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\SGE\SGE.Dominio\obj\Debug\net9.0\SGE.Dominio.AssemblyInfoInputs.cache
+C:\Users\user\SGE\SGE.Dominio\obj\Debug\net9.0\SGE.Dominio.AssemblyInfo.cs
+C:\Users\user\SGE\SGE.Dominio\obj\Debug\net9.0\SGE.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\user\SGE\SGE.Dominio\obj\Debug\net9.0\SGE.Dominio.dll
+C:\Users\user\SGE\SGE.Dominio\obj\Debug\net9.0\refint\SGE.Dominio.dll
+C:\Users\user\SGE\SGE.Dominio\obj\Debug\net9.0\SGE.Dominio.pdb
+C:\Users\user\SGE\SGE.Dominio\obj\Debug\net9.0\ref\SGE.Dominio.dll
