@@ -3,7 +3,7 @@ using SGE.Aplicacion.Comun;
 namespace SGE.Aplicacion.Tramites;
 
 public class TramiteNoEncontradoException
-    : AplicacionException
+    : EntidadNoEncontradaException
 {
     public TramiteNoEncontradoException()
         : base("El tramite no existe")

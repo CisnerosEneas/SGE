@@ -2,8 +2,8 @@ using System;
 using SGE.Aplicacion.Autorizacion;
 using SGE.Aplicacion.Tramites.DTOs;
 using SGE.Aplicacion.Tramites.Services;
-
-namespace SGE.Aplicacion.Tramites;
+using SGE.Dominio.Usuarios;
+namespace SGE.Aplicacion.Tramites.UseCases;
 
 public class EliminarTramiteUseCase
 {
@@ -11,11 +11,14 @@ public class EliminarTramiteUseCase
     private readonly IAutorizacionService _autorizacionService;
     private readonly ActualizacionEstadoExpedienteService _estadoService;
 
-    public EliminarTramiteUseCase(ITramiteRepository tramiteRepository, IAutorizacionService autorizacionService,  ActualizacionEstadoExpedienteService estadoService)
+    private readonly SGE.Aplicacion.Comun.IUnidadDeTrabajo _unidadDeTrabajo;
+
+    public EliminarTramiteUseCase(ITramiteRepository tramiteRepository, IAutorizacionService autorizacionService,  ActualizacionEstadoExpedienteService estadoService, SGE.Aplicacion.Comun.IUnidadDeTrabajo unidadDeTrabajo)
     {
         _tramiteRepository = tramiteRepository;
         _autorizacionService = autorizacionService;
         _estadoService = estadoService;
+        _unidadDeTrabajo = unidadDeTrabajo;
     }
 
     public EliminarTramiteResponse Ejecutar(EliminarTramiteRequest request)
@@ -25,6 +28,7 @@ public class EliminarTramiteUseCase
             throw new AutorizacionException();
         _tramiteRepository.Eliminar(request.TramiteId);
         _estadoService.ActualizarEstadoExpediente(request.ExpedienteId, request.IdUsuario);
+        _unidadDeTrabajo.Guardar();
         return new EliminarTramiteResponse(request.TramiteId);
     }
 }

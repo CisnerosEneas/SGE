@@ -3,7 +3,7 @@ using SGE.Aplicacion.Comun;
 namespace SGE.Aplicacion.Expedientes;
 
 public class ExpedienteNoEncontradoException
-    : AplicacionException
+    : EntidadNoEncontradaException
 {
     public ExpedienteNoEncontradoException()
         : base("El expediente no existe")

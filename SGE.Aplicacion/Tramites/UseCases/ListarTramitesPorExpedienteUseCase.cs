@@ -1,6 +1,6 @@
 using System;
 using SGE.Aplicacion.Tramites.DTOs;
-namespace SGE.Aplicacion.Tramites;
+namespace SGE.Aplicacion.Tramites.UseCases;
 
 public class ListarTramitesPorExpedienteUseCase
 {
