@@ -1,5 +1,4 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.34503.0
 MinimumVisualStudioVersion = 17.0.34503.0
@@ -8,8 +7,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGE.Aplicacion", "SGE.Aplicacion\SGE.Aplicacion.csproj", "{273EE653-D318-43E1-8D7A-57F59B7C3831}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGE.Infraestructura", "SGE.Infraestructura\SGE.Infraestructura.csproj", "{FCC9B637-C849-4FC1-902A-86809FD3E88A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGE.Consola", "SGE.Consola\SGE.Consola.csproj", "{1CAE38A7-3674-4F0D-92CF-B251FED3A372}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGE.WebApi", "SGE.WebApi\SGE.WebApi.csproj", "{00A5D9BD-3F91-4411-BB90-56300C110F61}"
 EndProject
@@ -59,18 +56,6 @@ Global
 		{FCC9B637-C849-4FC1-902A-86809FD3E88A}.Release|x64.Build.0 = Release|Any CPU
 		{FCC9B637-C849-4FC1-902A-86809FD3E88A}.Release|x86.ActiveCfg = Release|Any CPU
 		{FCC9B637-C849-4FC1-902A-86809FD3E88A}.Release|x86.Build.0 = Release|Any CPU
-		{1CAE38A7-3674-4F0D-92CF-B251FED3A372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1CAE38A7-3674-4F0D-92CF-B251FED3A372}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1CAE38A7-3674-4F0D-92CF-B251FED3A372}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{1CAE38A7-3674-4F0D-92CF-B251FED3A372}.Debug|x64.Build.0 = Debug|Any CPU
-		{1CAE38A7-3674-4F0D-92CF-B251FED3A372}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{1CAE38A7-3674-4F0D-92CF-B251FED3A372}.Debug|x86.Build.0 = Debug|Any CPU
-		{1CAE38A7-3674-4F0D-92CF-B251FED3A372}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1CAE38A7-3674-4F0D-92CF-B251FED3A372}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1CAE38A7-3674-4F0D-92CF-B251FED3A372}.Release|x64.ActiveCfg = Release|Any CPU
-		{1CAE38A7-3674-4F0D-92CF-B251FED3A372}.Release|x64.Build.0 = Release|Any CPU
-		{1CAE38A7-3674-4F0D-92CF-B251FED3A372}.Release|x86.ActiveCfg = Release|Any CPU
-		{1CAE38A7-3674-4F0D-92CF-B251FED3A372}.Release|x86.Build.0 = Release|Any CPU
 		{00A5D9BD-3F91-4411-BB90-56300C110F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{00A5D9BD-3F91-4411-BB90-56300C110F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00A5D9BD-3F91-4411-BB90-56300C110F61}.Debug|x64.ActiveCfg = Debug|Any CPU
